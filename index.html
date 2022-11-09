@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WordCounter</title>
+  
+  <script src="./components/WordCounter.js"></script>
+  <link rel="stylesheet" href="/twitch-wordcounter/index.d5611640.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>WordCounter en textarea</h1>
+    <textarea id="text" cols="30" rows="10"></textarea>
+    <word-counter for="text" max-chars="80"></word-counter>
+
+    <h1>WordCounter en input</h1>
+    <input id="message" value="Estás en el canal de Manz.dev">
+    <word-counter for="message"></word-counter>
+  </div>
+
+</body>
+</html>
